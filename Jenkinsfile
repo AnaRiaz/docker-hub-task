@@ -15,7 +15,7 @@ pipeline {
                     bat 'C://Users//anari//AppData//Local//Programs//Python//Python311 get-pip.py'
                     
                     // Use the full path to pip
-                    sh 'C://Users//anari//AppData//Local//Programs//Python//Python311 -m pip install -r requirements.txt'
+                    bat 'C://Users//anari//AppData//Local//Programs//Python//Python311 -m pip install -r requirements.txt'
                 }
             }
         }
