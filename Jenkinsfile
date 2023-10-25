@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                   
-                    bat 'C://Users//anari//AppData//Local//Programs//Python//Python311//Scripts//get-pip.py'
+                    bat 'C://Users//anari//AppData//Local//Programs//Python//Python311//python.exe C://Users//anari//AppData//Local//Programs//Python//Python311//Scripts//get-pip.py'
 
                     
                     // Use the full path to pip
